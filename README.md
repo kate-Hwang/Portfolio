@@ -11,7 +11,9 @@ about kate-Hwang design story and develop story
       <li>HTML5</li>
       <li>CSS</li><br>
       <li>Javascript</li>
-      <li>jQuery</li>
+      <li>jQuery</li><br>
+      <li>Vue.js</li>
+      <li>eclipse JSP</li>
     </ul>
 </p>
 
