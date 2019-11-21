@@ -9,10 +9,9 @@ about kate-Hwang design story and develop story
   <strong>Skills<strong>
     <ul>
       <li>HTML5</li>
-      <li>CSS</li><br>
+      <li>CSS</li>
       <li>Javascript</li>
       <li>jQuery</li><br>
-      <hr>
       <li>Vue.js</li>
       <li>eclipse JSP</li>
     </ul>
