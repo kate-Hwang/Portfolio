@@ -2,6 +2,9 @@
 about kate-Hwang design story and develop story
 
 <br>반갑습니다 황지영 포트폴리오 입니다.<br>
+프론트엔드를 지향하고 있습니다.
+디자인과 퍼블리싱에 능통하며
+스스로 공부하는것에 두려움이 없으며 개발이 즐거운 인 입니다.
 
 <hr>
 
