@@ -1,4 +1,4 @@
-[공통] 마크다운 markdown 작성법
+[-fortporlio] About Kate Hwang
 ======================
 
 # 1. 마크다운에 관하여
