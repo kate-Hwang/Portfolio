@@ -20,9 +20,8 @@
 - 프론트엔드 (데이터 바인딩)
 
 ****
-___
 
-#프로젝트 소개
+##프로젝트 소개
 
 
 ##[Project-Stuco](https://github.com/wnstkdyu/afterHackDay2018)
@@ -34,6 +33,7 @@ ___
 #### 사이트이미지
 
 <img src="images/Picka_main.png" width="800" height="500" hspace="2">
+![In-memory database]()
 
 ### Trouble Shooting
 -  문제내용1
