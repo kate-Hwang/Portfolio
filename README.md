@@ -23,7 +23,7 @@
 ___
 
 #프로젝트 소개
-[![version][badge-version]][link-version]
+[![version][badge-version]]
 
 ##[Project-Stuco](https://github.com/wnstkdyu/afterHackDay2018)
    **교육지원 웹 서비스**
