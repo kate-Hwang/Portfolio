@@ -1,74 +1,89 @@
-# [-PORTFORIO] Project Stuco (교육지원 웹 서비스)
-> 강사와 교육생 간의 원활한 의사소통과 더불어 질문하기를 어려워하는 교육생들을 위한 프로젝트
+# kate Hwang (황 지 영)
 
-한 두 문단으로 프로젝트 소개 글을 작성합니다.
+### 개인정보
+- [Github](https://github.com/kate-Hwang/Portfolio)
+- [ghkd6385@naver.com](ghkd6385@naver.com)
 
-![](../header.png)
+### 전체프로젝트 개발환경 
+- OS  :`window`, `Mac OS X(Unix)`
 
-## 설치 방법
+- WAS : `Apache Tomcat 8.5` , `Apache Tomcat 8.0 for Window, Mac`
 
-OS X & 리눅스:
+- WAB : `HTML5(html,css,javascript)` , `Jquery` , `Ajax` , `vue`
 
-```sh
-npm install my-crazy-module --save
-```
+- Test BROWSER : `Google Chrome` , `MS IE & Edge` , `Mozilla Firefox` , `Opera` , `Apple Safari`
 
-윈도우:
+### 담당 수행 역할
+- 전체 화면 UI (화면정의서) 기획
+- 디자인 제작
+- 페이지 퍼블리싱
+- 프론트엔드 (데이터 바인딩)
 
-```sh
-edit autoexec.bat
-```
+****
+___
 
-## 사용 예제
+#프로젝트 소개
+[![NPM Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Downloads Stats][npm-downloads]][npm-url]
 
-스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
 
-_더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
+##[Project-Stuco](https://github.com/wnstkdyu/afterHackDay2018)
+   **교육지원 웹 서비스**
+>강사와 교육생 간의 원활한 의사소통과 더불어 질문하기를
+어려워하는 교육생들을 위한 프로젝트
 
-## 개발 환경 설정
 
-모든 개발 의존성 설치 방법과 자동 테스트 슈트 실행 방법을 운영체제 별로 작성합니다.
+#### 사이트이미지
 
-```sh
-make install
-npm test
-```
+<img src="images/Picka_main.png" width="800" height="500" hspace="2">
 
-## 업데이트 내역
+### Trouble Shooting
+-  문제내용1
 
-* 0.2.1
-    * 수정: 문서 업데이트 (모듈 코드 동일)
-* 0.2.0
-    * 수정: `setDefaultXYZ()` 메서드 제거
-    * 추가: `init()` 메서드 추가
-* 0.1.1
-    * 버그 수정: `baz()` 메서드 호출 시 부팅되지 않는 현상 (@컨트리뷰터 감사합니다!)
-* 0.1.0
-    * 첫 출시
-    * 수정: `foo()` 메서드 네이밍을 `bar()`로 수정
-* 0.0.1
-    * 작업 진행 중
+    - 문제: 
+    - 연구: 
+    - 해결: 
 
-## 정보
 
-이름 – [@트위터 주소](https://twitter.com/dbader_org) – 이메일주소@example.com
+##[After Effect Korea](https://github.com/wnstkdyu/afterHackDay2018)
 
-XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
+   **영상편집 커뮤니티**
+>After Effect라는 영상프로그램 툴 전반에 
+필요한 정보와 영상정보 tip공유 및 전문성 강조 
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+#### 사이트이미지
 
-## 기여 방법
+<img src="images/Picka_main.png" width="800" height="500" hspace="2">
 
-1. (<https://github.com/yourname/yourproject/fork>)을 포크합니다.
-2. (`git checkout -b feature/fooBar`) 명령어로 새 브랜치를 만드세요.
-3. (`git commit -am 'Add some fooBar'`) 명령어로 커밋하세요.
-4. (`git push origin feature/fooBar`) 명령어로 브랜치에 푸시하세요. 
-5. 풀리퀘스트를 보내주세요.
+### Trouble Shooting
+-  문제내용1
 
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+    - 문제: 
+    - 연구: 
+    - 해결: 
+
+
+
+[프로젝트 리포지터리](https://github.com/RodoPacaGiraffe/BoostCamp_iOS_Electo)
+
+
+
+## [Vlogr](https://itunes.apple.com/kr/app/vlogr/id1179975615?mt=8)
+
+**일상을 전달하는 Vlog 소셜 네트워크**
+
+
+### 수행 역할
+- 재사용되는 코드를 묶어서 관리
+  - 공통적으로 쓰이는 `UITableViewCell`들을 `nib`파일로 묶어 재사용성 증대.
+  - `PushNotification`, `BlockUsers(불량 유저를 막는 기능)` 등 공통적으로 쓰이는 요소를 하나의 `Singleton Pattern`을 적용.
+  - 여러 `UITableView`의 `dataSource`를 하나의 `ViewModel` 객체로 만들어 각각의 인스턴스로 관리.
+- 동영상 전체화면으로 전환시 `UIModalPresentationStyle`의 `overFullScreen`을 적용해 아래의 뷰가 자연스럽게 흐려지도록 구현.
+- 좋아요 갯수를 표시하는 화면에서 느리게 받아오는 문제를 `UITableViewDelegate` 메소드인 `willDisplay` 안에서 쿼리를 미리 날려 게시물 별 좋아요를 미리 받게끔 수정
+- 온/오프라인, 로그인/둘러보기 관계없이 `BlockUsers` 싱글턴 객체로 `UserDefaults`를 이용해 로컬에 저장했다가 서버에 업로드 시 서버와 싱크를 맞춰줌.
+- 둘러보기를 구현하여 로그인을 하지 않아도 편집을 할 수 있게끔 구현
+- 로그인 화면 구성 시 `UIStackView`에 `View`를 넣었다 빼는 애니메이션 적용
+- `AppAuth` 라이브러리를 사용해 구글로 `OAuth` 적용 후 YouTube 업로드 기능 추가
+- 로컬라이징
+- 전체적으로 `Auto Layout` 적용
