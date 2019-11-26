@@ -21,11 +21,8 @@
 
 ****
 
-
-
-
-
 # 프로젝트 소개
+
 ### 1.  [Project-Stuco](https://github.com/wnstkdyu/afterHackDay2018)
    **교육지원 웹 서비스**
  >강사와 교육생 간의 원활한 의사소통과 더불어 질문하기를
@@ -66,4 +63,3 @@
 
 [프로젝트 리포지터리](https://github.com/RodoPacaGiraffe/BoostCamp_iOS_Electo)
 
- 
