@@ -1,10 +1,8 @@
-# 프로젝트명
-> 간략한 프로젝트 소개 문구를 작성합니다.
+[-PORTFORIO] About Kate Hwang
+======================
 
-[![NPM Version][npm-image]][]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-[![language][html/css]]
+# Project Stuco (교육지원 웹 서비스)
+> 강사와 교육생 간의 원활한 의사소통과 더불어 질문하기를 어려워하는 교육생들을 위한 프로젝트
 
 한 두 문단으로 프로젝트 소개 글을 작성합니다.
 
