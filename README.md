@@ -23,37 +23,37 @@
 
 # 프로젝트 소개
 
-## [Project-Stuco](https://github.com/wnstkdyu/afterHackDay2018)
+ ## First Project - [Project-Stuco](https://github.com/wnstkdyu/afterHackDay2018)
    **교육지원 웹 서비스**
->강사와 교육생 간의 원활한 의사소통과 더불어 질문하기를
-어려워하는 교육생들을 위한 프로젝트
+ >강사와 교육생 간의 원활한 의사소통과 더불어 질문하기를
+ 어려워하는 교육생들을 위한 프로젝트
 
 
-### 사이트이미지
+ ### 사이트이미지
 
-<img src="images/Picka_main.png" width="800" height="500" hspace="2">
-![In-memory database]()
+ <img src="images/Picka_main.png" width="800" height="500" hspace="2">
+ ![In-memory database]()
 
-### Trouble Shooting
--  문제내용1
+ ### Trouble Shooting
+ -  문제내용1
 
     - 문제: 
     - 연구: 
     - 해결: 
 
 
-## [After Effect Korea](https://github.com/wnstkdyu/afterHackDay2018)
+ ## [After Effect Korea](https://github.com/wnstkdyu/afterHackDay2018)
 
    **영상편집 커뮤니티**
->After Effect라는 영상프로그램 툴 전반에 
-필요한 정보와 영상정보 tip공유 및 전문성 강조 
+ >After Effect라는 영상프로그램 툴 전반에 
+ 필요한 정보와 영상정보 tip공유 및 전문성 강조 
 
-### 사이트이미지
+ ### 사이트이미지
 
 <img src="images/Picka_main.png" width="800" height="500" hspace="2">
 
-### Trouble Shooting
--  문제내용1
+ ### Trouble Shooting
+ -  문제내용1
 
     - 문제: 
     - 연구: 
