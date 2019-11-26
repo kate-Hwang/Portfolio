@@ -1,10 +1,11 @@
-# kate Hwang (황 지 영)
+# **kate Hwang (황 지 영)**
 
 ### 개인정보
 - [Github](https://github.com/kate-Hwang/Portfolio)
 - [ghkd6385@naver.com](ghkd6385@naver.com)
 
-### 전체프로젝트 개발환경 
+### 전체프로젝트 개발환경
+
 - OS  :`window`, `Mac OS X(Unix)`
 
 - WAS : `Apache Tomcat 8.5` , `Apache Tomcat 8.0 for Window, Mac`
@@ -31,10 +32,10 @@
 
 ### 사이트이미지
 
- <img src="images/Picka_main.png" width="800" height="500" hspace="2">
+<img src="images/Picka_main.png" width="800" height="500" hspace="2">
 
 ### Trouble Shooting
- -  문제내용1
+- 문제내용1
 
     - 문제: 
     - 연구: 
@@ -43,8 +44,8 @@
 
 ### 2. [After Effect Korea](https://github.com/wnstkdyu/afterHackDay2018)
 
-   **영상편집 커뮤니티**
- >After Effect라는 영상프로그램 툴 전반에 
+**영상편집 커뮤니티**
+>After Effect라는 영상프로그램 툴 전반에 
  필요한 정보와 영상정보 tip공유 및 전문성 강조 
 
  ### 사이트이미지
