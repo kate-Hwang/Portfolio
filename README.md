@@ -23,7 +23,7 @@
 ___
 
 #프로젝트 소개
-[![version][badge-version]]
+
 
 ##[Project-Stuco](https://github.com/wnstkdyu/afterHackDay2018)
    **교육지원 웹 서비스**
@@ -63,24 +63,3 @@ ___
 
 
 [프로젝트 리포지터리](https://github.com/RodoPacaGiraffe/BoostCamp_iOS_Electo)
-
-
-
-## [Vlogr](https://itunes.apple.com/kr/app/vlogr/id1179975615?mt=8)
-
-**일상을 전달하는 Vlog 소셜 네트워크**
-
-
-### 수행 역할
-- 재사용되는 코드를 묶어서 관리
-  - 공통적으로 쓰이는 `UITableViewCell`들을 `nib`파일로 묶어 재사용성 증대.
-  - `PushNotification`, `BlockUsers(불량 유저를 막는 기능)` 등 공통적으로 쓰이는 요소를 하나의 `Singleton Pattern`을 적용.
-  - 여러 `UITableView`의 `dataSource`를 하나의 `ViewModel` 객체로 만들어 각각의 인스턴스로 관리.
-- 동영상 전체화면으로 전환시 `UIModalPresentationStyle`의 `overFullScreen`을 적용해 아래의 뷰가 자연스럽게 흐려지도록 구현.
-- 좋아요 갯수를 표시하는 화면에서 느리게 받아오는 문제를 `UITableViewDelegate` 메소드인 `willDisplay` 안에서 쿼리를 미리 날려 게시물 별 좋아요를 미리 받게끔 수정
-- 온/오프라인, 로그인/둘러보기 관계없이 `BlockUsers` 싱글턴 객체로 `UserDefaults`를 이용해 로컬에 저장했다가 서버에 업로드 시 서버와 싱크를 맞춰줌.
-- 둘러보기를 구현하여 로그인을 하지 않아도 편집을 할 수 있게끔 구현
-- 로그인 화면 구성 시 `UIStackView`에 `View`를 넣었다 빼는 애니메이션 적용
-- `AppAuth` 라이브러리를 사용해 구글로 `OAuth` 적용 후 YouTube 업로드 기능 추가
-- 로컬라이징
-- 전체적으로 `Auto Layout` 적용
