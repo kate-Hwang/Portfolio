@@ -32,7 +32,7 @@
 
 ### 사이트이미지
 
-<img src="images/Picka_main.png" width="800" height="500" hspace="2">
+<img src="/imac_목업이미지2.png" width="800" height="500" hspace="2">
 
 ### Trouble Shooting
 - 문제내용1
