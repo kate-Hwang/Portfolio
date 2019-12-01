@@ -50,7 +50,7 @@
 
  ### 사이트이미지
 
-<img src="/After_Effect_korea.png" width="700" height="550" hspace="2">
+<img src="/After_Effect_korea.png" width="800" height="650" hspace="2">
 
  ### Trouble Shooting
  -  문제내용1
