@@ -1,0 +1,272 @@
+@charset "utf-8";
+/*CSS DOCUMENTS*/
+
+#wrap{width:100%;height:auto;}
+
+/*container => 부모요소*/
+#container{width:100%;height:auto;}
+
+#container>section{
+    display: block;
+    width:100%;
+    height:auto;
+}
+
+/*------첫번째 단(메인소개)------*/
+#container>#sct1{
+    padding-top: 45px;
+    height: 990px;
+    background-color: #B40404;
+}
+/*로고이미지*/
+.logo{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background:url(/img/main-logo.svg)no-repeat;
+}
+/*imac이미지*/
+.imac{
+    width: 1240px;
+    height: 1100px;
+    margin: 0 auto;
+    padding: 70px 0;
+    background: url(/img/imac.png)20px 20px no-repeat;
+}
+.main-image-code{
+    width: 1096px;
+    height: 607px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+/*------두번째 단(사이트소개)------*/
+#container>#sct2{
+    width: 1240px;
+    height: 400px;
+    margin: 300px auto 0 auto;
+}
+.about-website-intro{
+    margin-top: 50px ;
+}
+.overview{
+    margin: 20px 0;
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    font-weight: bolder;
+}
+.about-website-intro p:nth-child(2),
+.about-website-intro p:nth-child(3),
+.about-website-intro p:nth-child(4){
+    margin: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 37px;
+    font-weight: 600;
+    color: #B40404;
+}
+
+/*------세번째 단(글자 설명_단/칼라 설명_단)------*/
+#container>#sct3{
+    width: 1240px;
+    height: 800px;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 0 auto;
+}
+.typography{
+    margin: 20px 0;
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    font-weight: bolder;
+}
+.exp-txt-cover{
+    display: -webkit-inline-box;
+    font-size: 20px;
+    color: #B40404;
+}
+/*나눔스퀘어*/
+.exp1{
+    display: inline-block;
+    height: auto;
+    font-weight: 700;
+    font-size: 80px;
+}
+.exp1 span{
+    font-weight: 500;
+    font-size: 60px;
+}
+.line{
+    display: inline-block;
+    height: auto;
+    margin: 0 50px;
+    font-size: 80px;
+    font-weight: 300;
+}
+/*나눔스퀘어라운드*/
+.exp2{
+    display: inline-block;
+    height: auto;
+    font-family: 'NanumSquareRound',sans-serif;/*라운드폰트*/
+    font-weight: 700;
+    font-size: 80px;
+}
+.exp2 span{
+    font-weight: 500;
+    font-size: 60px;
+}
+/*------------------------*/
+.expression-txt{
+    display: block;
+    margin: 50px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #B40404;
+}
+.expression-txt p{
+    display: inline;
+}
+.expression-txt p:nth-child(1){
+    margin: 0 20px;
+}
+.expression-txt p:nth-child(2){
+    margin: 0 20px 0 30px;
+}
+.expression-txt p:nth-child(3){
+    margin-left: 20px;
+}
+/*------칼라 설명_단------*/
+.exp-color{
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+}
+.color{
+    margin: 20px 0;
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    font-weight: bolder;
+}
+/*원(animation)들어가는 부분*/
+/*7개 원*/
+.red-main-colors{
+    width: 100%;
+    height: auto;
+}
+.round-col{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+.round-col li{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #B40404;
+    box-shadow: 0 7px 28px rgba(0,0,0,0.24);
+}
+
+.exp-color p{
+    margin: 18px auto;
+    color: #B40404;
+    font-weight: 800;
+    font-size: 17px;
+}
+.SubColors{
+    width: 60%;
+    height: 150px;
+    border: 1px solid red;
+    margin: 29px auto;
+}
+/*(SubColor)남색 원*/
+.sub-color{
+    width: 100px;
+    height: auto;
+    float: left;
+    border: 1px solid #000;
+}
+.round-navi{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 40px;
+    background-color: #323a41;
+}
+
+/*(SubColor)회색 원*/
+.sub-color2{
+    width: 100px;
+    height: auto;
+    float: right;
+    border: 1px solid greenyellow;
+}
+.round-gray{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 40px;
+    background-color: #abacac;
+}
+
+
+#container>#sct4{
+    background-color: #6E74F5 ;
+}
+
+#container>#sct5{
+    top:400%;
+    background-color: #FF708F ;
+}
+
+/* .sctin{position: relative;width: 100%;height: 120%;} */
+.sctin{position: relative;width: 100%;height: 120%;}
+
+
+/*Pager Button*/
+#pager{
+    position:fixed;
+    z-index:9999;
+    /*위치적용*/
+    /*absolute = fixed*/
+    top:40%;
+    transform: translate(-50%);
+    right:2%;
+    display:none;
+    
+}
+
+#pager li{
+    background-color: darkgrey;
+    margin: 16px 0;
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+#pager a{
+    /*a태그안에 있는 글을 제거*/
+    text-indent: -9999px;
+    
+    /*글자가 사라지고 간 빈 공간을 디자인하는 코드*/
+    /*a태그나 span태그는 공간이라는 개념이 존재하지 않는다.*/
+    display:block;
+    width:10px;
+    height:10px;
+    border-radius: 15px;
+    background-color: black;
+    /* border:1px solid #fff; */
+    /*위의값으로 인하여 사각버튼을 원형버튼으로 제작하는 코드*/
+    
+}
+
+#pager li a:active{
+    border-radius: 17px;
+    background-color: black;
+    /* background-color: #ffffff; */
+}
