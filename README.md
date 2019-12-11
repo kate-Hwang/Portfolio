@@ -37,7 +37,7 @@
 
 **화면정의서**
 
-[<img src="/imac_목업이미지2.png" width="800" height="650" hspace="2">]
+[<img src="" width="800" height="650" hspace="2">]
 
 ### Trouble Shooting
 - 문제내용1
