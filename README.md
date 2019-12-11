@@ -36,7 +36,7 @@
 
 ### 기획
 
-[<img src="UI정의서img.png" width="900" height="150" hspace="2">](https://www.naver.com/)
+[<img src="UI정의서img.png" width="900" height="120" hspace="2">](https://www.naver.com/)
 
 ### Trouble Shooting
 - 문제내용1
