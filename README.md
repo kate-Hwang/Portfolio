@@ -37,7 +37,7 @@
 
 **화면정의서**
 
-[<img src="" width="700" height="500" hspace="2">]
+[<img src="" width="900" height="300" hspace="2">]
 
 ### Trouble Shooting
 - 문제내용1
