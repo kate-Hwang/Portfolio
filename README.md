@@ -37,7 +37,7 @@
 
 **화면정의서**
 
-<img src="/imac_기획안이미지.png" width="900" height="300" hspace="2">
+<img src="/기획안이미지.png" width="900" height="300" hspace="2">
 
 ### Trouble Shooting
 - 문제내용1
