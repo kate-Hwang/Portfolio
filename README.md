@@ -36,7 +36,7 @@
 
 ### 기획
 
-<img src="UI정의서img.png" width="900" height="120" hspace="2">
+[<img src="UI정의서img.png" width="900" height="120" hspace="2">](../Portfolio/)
 [프로젝트 Stuco 기획안]()
 
 ### Trouble Shooting
