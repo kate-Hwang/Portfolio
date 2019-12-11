@@ -33,6 +33,11 @@
 ### 사이트이미지
 
 <img src="/imac_목업이미지2.png" width="800" height="650" hspace="2">
+### 기획
+
+**화면정의서**
+
+[<img src="/imac_목업이미지2.png" width="800" height="650" hspace="2">]
 
 ### Trouble Shooting
 - 문제내용1
