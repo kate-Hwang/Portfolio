@@ -34,6 +34,11 @@
 
 <img src="/imac_목업이미지2.png" width="800" height="650" hspace="2">
 
+### 기획
+
+[<img src="UI정의서img.png" width="900" height="120" hspace="2">](/화면정의서_인쇄2.pdf)
+[프로젝트 Stuco 기획안](/화면정의서_인쇄2.pdf)
+
 ### Trouble Shooting
 - 문제내용1
 
