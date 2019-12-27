@@ -265,11 +265,14 @@ input[type="password"]:focus {
 } */
 /*-----------------------------------------------------------------*/
 /*--------------------------비밀번호생성 팝업창-------------------------*/
-
-.article-modal{
+.article{
+    width: 90%;
+    margin: 25px auto;
+}
+/* .article-modal{
     position: absolute;
     top: 80px;
-}
+} */
 /*-----------------------*/
 .popup-content{
     vertical-align: middle;
@@ -285,13 +288,8 @@ input[type="password"]:focus {
 .header-pw-make{
     background-color: #cbcbcb;
 }
-.article{
-    
-}
 .article-text{
-    
-    
-    
+    margin: 40px 0;
     border-bottom: 1px solid darkgrey;
 }
 .article-text>p{
@@ -300,25 +298,26 @@ input[type="password"]:focus {
 .article-text>p:first-child{font-size: 20px;}
 
 .manager-form{
-    
+    width: 100%;
 }
 .form-modal-pw-find{
-    max-width: 80%;
-    margin:0 auto;
+    margin: 40px;
+    text-align: left;
     font-size: 17px;
     letter-spacing: 1px;
 }
 label {
     display: inline-block;
+    margin: 0 20px;
 }
 .num1{
-    
+    margin: 20px 0;
 }
 .num2{
     
 }
 .num1 input[type="password"] { 
-    /* margin: 12px 5px 12px 100px; */
+    margin: 0 37px;
     padding: 15px 50px 15px 10px; /* 여백 설정 */ 
     font-size: 15pt;
 }
