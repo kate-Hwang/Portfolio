@@ -13,10 +13,12 @@
     <script src="/project_Stuko/js/custom/modal.js"></script>
 </head>
 <body>
+
+
     <div class="popup popup-removeproject">
             <div class="popup-cover">
                 <div class="popup-content">
-                    <span class="close">닫기</span>
+                    <span class="close"></span>
                     <div class="pu-contents">
                         <!--content 내용-->
                     <div class="topbar"><p>프로젝트 생성</p></div>
@@ -28,13 +30,17 @@
                             <p class="private-txt1">100자 이내</p>
                         </div>
                         <div class="pw_box">
-                            <p>프로젝트 비밀번호</p>
-                            <input type="password" name="password" value="">
-                            <p class="private-txt2">8자 이내</p>
+                            <div class="Project-pw">
+                                <p class="Project-password">프로젝트 비밀번호</p>
+                                <input type="password" name="password" value="">
+                                <p class="private-txt2">8자 이내</p>
+                            </div>
             
-                            <p>프로젝트 비밀번호 확인</p>
-                            <input type="password" name="password" value="">
-                            <p class="private-txt3">8자 이내</p>
+                            <div class="Check-pw">    
+                                <p class="Project-password-check">프로젝트 비밀번호 확인</p>
+                                <input type="password" name="password" value="">
+                                <p class="private-txt3">8자 이내</p>
+                            </div>
                         </div>
             
                         <div class="comment">
@@ -43,9 +49,9 @@
                         </div>
 
                         <div class="btn-cover-box">
-                            <div class="start-btn">
+                            
                                 <button type="submit">운영 시작</button>
-                            </div>
+                            
                         </div>
                     </section>
                         <!--content 내용-->
@@ -60,8 +66,8 @@
         <header id="header">
             <div class="header-nav">
                 <div class="nav-content">
-                    <div class="logo">logo</div>
-                    <p class="click-in"><a href="#" class="click-show-pp">프로젝트 생성</a></p>
+                    <div class="logo"></div>
+                    <p class="click-in"><a href="" class="click-show-pp">프로젝트 생성</a></p>
                     <p class="word-page"><a href="#">홈페이지가기</a></p>
                 </div>
             </div>
@@ -79,7 +85,10 @@
                 </div>
 
                 <!--현재 관리하고있는 프로젝트 리스트 테이블-->
-                <div class="table-name"><img src="https://picsum.photos/id/84/30/30" alt="아이콘"><p>현재 생성 프로젝트 현왕 및 설정</p></div>
+                <div class="table-name">
+                    <span></span>
+                    <p>현재 생성 프로젝트 현왕 및 설정</p>
+                </div>
 
                 <div class="table-box">
                     <table class="project-list">
@@ -97,29 +106,29 @@
                         <tbody class="table-content">
                             <tr>
                                 <th></th>
-                                <td>NCS국비지원-프론트엔드(1)</td>   <!--Data-->
+                                <td><a href="#">NCS국비지원-프론트엔드(1)</a></td>   <!--Data-->
                                 <td>2019-05-01</td>                 <!--Data-->
                                 <td>5명</td>                        <!--Data-->
                                 <td><button id="Delete-btn">삭제</button></td>
-                                <td><a href="#">icons</a></td>
+                                <td><a href="#"><img src="/project_Stuko/img/main/controls.svg" alt="설정" width="40px" height="40px"></a></td>
                             </tr>
 
                             <tr>
                                 <th></th>
-                                <td>도커(Docker)를 활용한 클라우드 서비스 구축 과정</td> <!--Data-->
+                                <td><a href="#">도커(Docker)를 활용한 클라우드 서비스 구축 과정</a></td> <!--Data-->
                                 <td>2019-06-58</td>                                     <!--Data-->
                                 <td>13명</td>                                           <!--Data-->
                                 <td><button id="Delete-btn">삭제</button></td>
-                                <td><a href="#">icons</a></td>
+                                <td><a href="#"><img src="/project_Stuko/img/main/controls.svg" alt="설정" width="40px" height="40px"></a></td>
                             </tr>
 
                             <tr>
                                 <th></th>
-                                <td>자바(JAVA)개발자&안드로이드 앱 개발 양성과정</td>   <!--Data-->
+                                <td><a href="#">자바(JAVA)개발자&안드로이드 앱 개발 양성과정</a></td>   <!--Data-->
                                 <td>2019-08-08</td>                                  <!--Data-->
                                 <td>10명</td>                                        <!--Data-->
                                 <td><button id="Delete-btn">삭제</button></td>
-                                <td><a href="#">icons</a></td>
+                                <td><a href="#"><img src="/project_Stuko/img/main/controls.svg" alt="설정" width="40px" height="40px"></a></td>
                             </tr>
                             
                             <!-- <tr>

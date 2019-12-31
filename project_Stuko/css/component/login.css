@@ -180,13 +180,11 @@
 }
 .user-pw{margin-top: 25px;} /*input 간격조정*/
 .user-id label{
-    width: 105px;
-    padding: .8em .5em; /*input요소의 padding 값만큼*/
+    padding: 0 5px; /*input요소의 padding 값만큼*/
     color: #595959; 
 }
 .user-pw label{
-    width: 105px;
-    padding: .8em .5em; /*input요소의 padding 값만큼*/
+    padding: 0 2px; /*input요소의 padding 값만큼*/
     color: #595959;  
 }
 /* 계정-box*/
@@ -212,11 +210,12 @@ input[type="password"]:focus {
 /*--------------*/
 /*로그인 확인 버튼*/
 .submit-btn1{
-    width: 500px;
+    text-align: -webkit-center;
+    width: 475px;
 }
 #btn-login{
     height: auto;
-    padding: 17px 173px;/* 여백 설정 */
+    padding: 15px 150px;/* 여백 설정 */
     border-radius: 5px;/*둥근모서리 설정*/
 }
 #btn-login p{
@@ -265,6 +264,9 @@ input[type="password"]:focus {
 } */
 /*-----------------------------------------------------------------*/
 /*--------------------------비밀번호생성 팝업창-------------------------*/
+.close{ /*팝업창닫기 아이콘*/
+    background-image: url(/project_Stuko/img/main/cancel.svg);
+}
 .article{
     width: 90%;
     margin: 25px auto;
