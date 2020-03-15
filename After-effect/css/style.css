@@ -13,31 +13,33 @@
 }
 
 /*------첫번째 단(메인소개)------*/
-#container>#sct1{
-    padding-top: 45px;
-    height: 990px;
+#sct1{
+    width:100%;
+    height:auto;
     background-color: #B40404;
 }
+.main-intro{padding: 120px 0 0 0;}
+
 /*로고이미지*/
 .logo{
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
     margin: 0 auto;
-    background:url(/img/main-logo.svg)no-repeat;
+    background:url(../img/main-logo.svg) no-repeat;
 }
 /*imac이미지*/
 .imac{
-    width: 1240px;
+    width: 1250px;
     height: 1100px;
     margin: 0 auto;
     padding: 70px 0;
-    background: url(/img/imac.png)20px 20px no-repeat;
+    background: url(../img/imac.png)20px 20px no-repeat;
 }
 .main-image-code{
     width: 1096px;
     height: 607px;
     margin: 0 auto;
-    border: 1px solid white;
+    background: url(../img/main_background.png) no-repeat;
 }
 
 /*------두번째 단(사이트소개)------*/

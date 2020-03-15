@@ -171,7 +171,7 @@ textarea{
 .table-name span{
     padding: 13px 15px;
     margin-right: 12px;
-    background: url(/project_Stuko/img/main/graph.svg)no-repeat;
+    background: url(../img/main/graph.svg)no-repeat;
 }
 .table-name>p{
     display: inline-block;
