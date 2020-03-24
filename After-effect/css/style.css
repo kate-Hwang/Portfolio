@@ -71,7 +71,6 @@
 #container>#sct3{
     width: 1240px;
     height: 800px;
-    border: 1px solid gray;
     text-align: center;
     margin: 0 auto;
 }
@@ -127,24 +126,12 @@
     font-weight: 600;
     color: #B40404;
 }
-.expression-txt p{
-    display: inline;
-}
-.expression-txt p:nth-child(1){
-    margin: 0 20px;
-}
-.expression-txt p:nth-child(2){
-    margin: 0 20px 0 30px;
-}
-.expression-txt p:nth-child(3){
-    margin-left: 20px;
-}
+.expression-txt p{display: inline;}
+.expression-txt p:nth-child(1){margin: 0 20px;}
+.expression-txt p:nth-child(2){margin: 0 20px 0 30px;}
+.expression-txt p:nth-child(3){margin-left: 20px;}
 /*------칼라 설명_단------*/
-.exp-color{
-    width: 100%;
-    height: auto;
-    border: 1px solid green;
-}
+.exp-color{ width: 100%; height: auto; }
 .color{
     margin: 20px 0;
     text-align: center;
@@ -156,23 +143,21 @@
 }
 /*원(animation)들어가는 부분*/
 /* animate effect - 원 */
-
 /*7개 원*/
 .red-main-colors{width: 100%;height: auto;}
 .round-col{width: 100%; height: 100px; margin-top: 30px;}
-.round1{z-index: -100; margin: 0 -15px;}
-.round2{margin: 0 -15px; z-index: -80;}
-.round3{margin: 0 -15px; z-index: -60;}
-.round4{margin: 0 -15px; z-index: -40;}
-.round5{margin: 0 -10px; z-index: -20;}
-.round6{margin: 0 -8px; z-index: -10;}
-.round7{margin: 0 -20px; z-index: 0;}
+.round1{z-index: -100; margin: 0 -13px; background-color: #B40404;}
+.round2{margin: 0 -13px; z-index: -80; background-color: #BE2427;}
+.round3{margin: 0 -13px; z-index: -60; background-color: #C92f2d;}
+.round4{margin: 0 -13px; z-index: -40; background-color: #d75655;}
+.round5{margin: 0 -13px; z-index: -20; background-color: #f7a69e;}
+.round6{margin: 0 -13px; z-index: -10; background-color: #fce1e1;}
+.round7{margin: 0 -13px; z-index: 0; background-color: #fffeff;}
 .round-col span{
     display: inline-block;
     width: 80px;
     height: 80px;
     border-radius: 40px;
-    background-color: #B40404;
     transition-duration: 1s;
     box-shadow: 0 7px 28px rgba(0,0,0,0.24);
 }
@@ -232,14 +217,13 @@
     box-shadow: 0 7px 28px rgba(0,0,0,0.24);
 }
 
-
 /* 레이아웃 그리드 섹션 */
 #sct4{ width: 100vw; height: 100vw; background-color: #fff;}
 .grid-system{ width: 100vw; }
 .grid-img{
     width: 805px;
     height: 900px;
-    margin: 80px auto;
+    margin: 40px auto;
     opacity: 0.8;
     background: url(../img/페이지그리드이미지.png) no-repeat;
 }
@@ -253,13 +237,16 @@
     font-weight: bolder;
 }
 /* 움직이는 선 */
-.moving-line{width: 100%; height: 20px; border: 1px solid gray;}
+.moving-line{width: 700px; height: 30px; border: 1px solid gray;margin: 20px auto;}
 /* 레이아웃 레드그리드 */
+.grid-img-system-line{
+    border: 1px solid fuchsia;
+}
 .px-line{
     z-index: 100; 
     position: relative;
     left: 50%;
-    top: -1000px;
+    top: -970px;
     transform: translate(-50%);  
     width: 700px;
     height: 800px;
@@ -294,7 +281,6 @@
 .i16{left:600px;}
 .i17{left:640px;}
 .i18{left:680px;}
-
 
 #sct5{
     width: 100vw;
