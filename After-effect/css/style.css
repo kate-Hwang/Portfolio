@@ -262,10 +262,20 @@
 }
 
 
+/* 레이아웃 그리드 섹션 */
 #sct4{
     width: 100vw;
     height: 100vw;
-    background-color: #6E74F5 ;
+    background-color: #ffffff ;
+}
+.grid-system{
+    width: 100vw;
+    border: 1px solid red;
+}
+.grid-img{
+    width: auto;
+    height: auto;
+    background-image: url(./img/페이지그리드이미지.png)no-repeat;
 }
 
 #sct5{
