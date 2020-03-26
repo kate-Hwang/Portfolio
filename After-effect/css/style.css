@@ -218,7 +218,8 @@
 }
 
 /* 레이아웃 그리드 섹션 */
-#sct4{ width: 100vw; height: 100vw; background-color: #fff;}
+#sct4{ width: 100vw; height: 1080px; background-color: #fff;}
+#sct4 .sctin{width: 100vw; max-height: 100%;}
 .grid-system{ width: 100vw; }
 .grid-img{
     width: 805px;
@@ -237,10 +238,32 @@
     font-weight: bolder;
 }
 /* 움직이는 선 */
-.moving-line{width: 700px; height: 30px; border: 1px solid gray;margin: 20px auto;}
+.grid-img-system-line p{vertical-align: middle;display: inline;}
+.-all-moving-line{
+    display: inline-block;
+    width: 700px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+.moving-line{ 
+    margin: 20px 50px;
+    box-sizing: border-box;
+	width: 16px;
+	height: 16px;
+	background-color: #B40404;
+	transition-property: all;
+    transition-duration: 4s;
+    
+}
+.ml{
+    animation-iteration-count:infinite;
+    transition-timing-function: ease-in-out;
+}
+
 /* 레이아웃 레드그리드 */
 .grid-img-system-line{
-    border: 1px solid fuchsia;
+    width: 100%;
+    height: 1010px;
 }
 .px-line{
     z-index: 100; 
@@ -285,10 +308,21 @@
 #sct5{
     width: 100vw;
     height: 100vh;
-    background-color: #FF708F ;
 }
-
-/*Pager Button*/
+#sct5 .sctin{
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 0;
+    background-color: #000;
+}
+.sctin-site-box{
+    width: 1200px;
+    height: 2000px;
+    margin: 0 auto;
+    box-shadow: 0 7px 28px rgba(0,0,0,0.24);/*그림자적용*/
+    background-color: #fffeff;
+}
+/*-----------Pager Button-----------*/
 #pager{
     position:fixed;
     z-index:9999;
@@ -298,7 +332,6 @@
     transform: translate(-50%);
     right:2%;
     display:none;
-    
 }
 
 #pager li{
