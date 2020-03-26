@@ -310,9 +310,17 @@
 }
 #sct5 .sctin{
     width: 100vw;
-    height: 100vh;
+    height: 1740px;
     padding: 50px 0;
     background-color: #000;
+}
+.sctin-red{
+    z-index: -10;
+    position: relative;
+    top: 1790px;
+    width: 100%;
+    height: 600px;
+    background-color: #b81f24;
 }
 .sctin-site-box{
     width: 1200px;
@@ -414,6 +422,100 @@
     letter-spacing: 10px;
     padding: 35px 0;
 }
+/*SNS 소식*/
+.SNS{
+    width: 100%;
+    height: 300px;
+    margin: 40px 0;
+}
+.sns-txt{
+    text-align: center;
+}
+.sns-txt p{
+    font-size: 26px;
+    font-weight: bolder;
+    font-family: 'NanumSquare';
+}
+.sns-content{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.video-slide{
+    width: 80%;
+    height: 200px;
+    border: 1px solid goldenrod;
+    margin: 40px auto;
+}
+.video-slide li{
+    width: 17%;
+    height: 200px;
+    float: left;
+    margin-left: 24px;
+    list-style: none;
+    background-color: #b81f24;
+}
+/*현재진행형*/
+.contents{
+    width: 100%;
+    height: 530px;
+    background-color:#b81f24;
+}
+.progress-txt{
+    padding: 20px 20px;
+    text-align: center;
+    color: white;
+}
+.progress-txt p{
+    font-size: 26px;
+    font-weight: bolder;
+    font-family: 'NanumSquare';
+}
+.join-people{
+    width: 80%;
+    margin: 0 auto;
+}
+.join-people-cover{
+    margin: 40px auto;
+    width: 77.3%;
+    height: auto;
+}
+
+.join-people-cover span{
+    display: inline-block;
+    width: 150px;
+    border: 1px solid white;/*style-line 없애지말것*/
+}
+.youtuber, .update-num, .people-num{
+    display: inline-block;
+    width: 280px;
+    height: 250px;
+    text-align: center;
+    vertical-align: middle;
+}
+.youtuber p, .update-num p, 
+.people-num p, .num-data1 p, 
+.num-data2, .num-data, .num-data1{
+    color: white;
+    font-size: 20px;
+    font-family: 'NanumSquare';
+}
+
+.num-data1 p{display: inline;}
+.num-data1, .num-data2{margin-top: 30px ;}
+
+.yt-img, .update-img, .people-img{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+.yt-img{background: url(../img/third-img1.svg)no-repeat;}
+.update-img{background: url(../img/third-img2.svg)no-repeat;}
+.people-img{
+    padding: 15px;
+    background: url(../img/third-img3.svg)no-repeat;
+}
+
 /*-----------Pager Button-----------*/
 #pager{
     position:fixed;
