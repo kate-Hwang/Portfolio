@@ -2,16 +2,9 @@
 /*CSS DOCUMENTS*/
 
 #wrap{width:100%;height:auto;}
-
 /*container => 부모요소*/
 #container{width:100%;height:auto;}
-
-#container>section{
-    display: block;
-    width:100%;
-    height:auto;
-}
-
+#container>section{ display: block; width:100%; height:auto; }
 /*------첫번째 단(메인소개)------*/
 #sct1{background-color: #B40404;}
 .main-intro{padding: 120px 0 0 0;width:100%;height:1030px;}
@@ -37,16 +30,13 @@
     margin: 0 auto;
     background: url(../img/main_background.png) no-repeat;
 }
-
 /*------두번째 단(사이트소개)------*/
 #container>#sct2{
     width: 1240px;
     height: 400px;
     margin: 300px auto 0 auto;
 }
-.about-website-intro{
-    margin-top: 50px ;
-}
+.about-website-intro{ margin-top: 50px; }
 .overview{
     margin: 20px 0;
     text-align: center;
@@ -240,22 +230,47 @@
 /* 움직이는 선 */
 .grid-img-system-line p{vertical-align: middle;display: inline;}
 .-all-moving-line{
-    width: 700px;
+    width: 837px;
     margin: 20px auto;
-    border: 1px solid red;
+}
+.px-size{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(180,4,4,1);
+
+}
+.test-box{
+    width: 92%;
+    height: 5px;
+    float: right;
+    margin-top: 6px;
 }
 .moving-line{ 
-    margin: 20px 50px;
+    /* margin: 20px 50px;
+    box-sizing: border-box; */
+    display: block;
+    width: 75px;
+    height: 5px;
+    padding: 0 10px;
+    line-height: 5px;
+    text-align: right;
+    background-color: #B40404;
     box-sizing: border-box;
-	width: 16px;
-	height: 16px;
-	background-color: #B40404;
-	transition-property: all;
-    transition-duration: 4s;
-    
+    /*애니메이션*/
+    animation: pxsize 2s 1 both;
+    -webkit-animation: pxsize 2s 1 both;
+    -moz-animation: pxsize 2s 1 both;
+    /*animation-fill-mode: both; 애니메이션 상태유지*/
+	/* transition-property: all;
+    transition-duration: 4s; */
 }
+@keyframes pxsize{
+    0% { width: 0; color: rgba(255,255,255,0); }
+    40% { color: rgba(255,255,255,0); }
+    100% { width: 91.5%; }
+}
+
 .ml{
-    animation-iteration-count:infinite;
     transition-timing-function: ease-in-out;
 }
 
@@ -343,7 +358,7 @@
     font-weight: 700;
     font-size: 25px;
 }
-/* Search Bar / hashTag */
+/*-------- Search Bar / hashTag -------- */
 .search-Data{
     width: 1200px;
     height: 60px;
@@ -383,6 +398,7 @@
     color: #fff;
     font-weight: bolder;
     background-color: #b81f24;
+    box-shadow: 0 7px 28px rgba(0,0,0,0.55);
 }
 /*---------Hot issue / Best vd---------*/
 .video-popularity{
