@@ -257,12 +257,13 @@
     background-color: #B40404;
     box-sizing: border-box;
     /*애니메이션*/
-    animation: pxsize 2s 1 both;
-    -webkit-animation: pxsize 2s 1 both;
-    -moz-animation: pxsize 2s 1 both;
+    animation: pxsize 7s 1 both;
+    -webkit-animation: pxsize 7s 1 both;
+    -moz-animation: pxsize 7s 1 both;
+    animation-iteration-count: 5;/*애니메이션반복횟수*/
+    -webkit-animation-iteration-count: 5; 
+    -moz-animation-iteration-count: 5;
     /*animation-fill-mode: both; 애니메이션 상태유지*/
-	/* transition-property: all;
-    transition-duration: 4s; */
 }
 @keyframes pxsize{
     0% { width: 0; color: rgba(255,255,255,0); }
@@ -271,6 +272,7 @@
 }
 
 .ml{
+    /* animation-iteration-count: infinite; 2 */
     transition-timing-function: ease-in-out;
 }
 
@@ -363,7 +365,7 @@
     width: 1200px;
     height: 60px;
 }
-.search-bar{
+/* .search-bar{
     width: 400px;
     height: auto;
     border: 1px solid gray;
@@ -376,10 +378,79 @@
     text-align: left;
     font-size: 17px;
     background-color: #eeeeee;
+} */
+.search-body{
+    position: relative;
+    width: 100%;
+    height: 122px;
 }
+.search-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:#b91111;
+    height:50px;
+    border-radius:8px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+.search-box-cover{
+    position:absolute;
+    top:50%;
+    left:49.5%;
+    transform:translate(-50%,-50%);
+    /*background:#2f3640;*/
+    height: 74px;
+    width: 520px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.search-box-cover:hover{
+    width: 520px;
+    transition: 0.2s;
+    transition-delay: 0.3s;
+    border-top: 3px solid #b40404;
+    border-bottom: 3px solid #b40404;
+}
+.search-box:hover{ 
+    opacity:inherit;
+    background: none; 
+    border: 7px solid #b40404 ;
+    
+}
+.search-box:hover > .search-txt{ width:520px; padding:0; background:white; color:#000;  margin-left: 45px;  }
+.search-box:hover > .search-btn{ background:none;cursor:pointer; }
+.search-btn{
+    display:block;
+    color:#030b16;
+    width:50px;
+    height:50px;
+    text-align:center;
+    line-height:60px;
+    transition:0.5s;
+    cursor: pointer;
+    
+}
+ .search-txt{
+    border:none;
+    background:none;
+    outline:none;
+    padding:0;
+    color:#000;
+    font-size:19px;
+    line-height:92px;
+    width:0;
+    transition:0.4s;
+    margin-left:480px;
+}
+/*------------------------------*/
 .search-hashtag{
     width: 55%;
-    margin: 50px auto;
+    margin: 0px auto;
     border: 1px solid white;
 }
 .hashtag-txt li{
@@ -468,7 +539,15 @@
     float: left;
     margin-left: 24px;
     list-style: none;
-    background-color: #b81f24;
+    border: 1px solid #b81f24;
+    /* background-color: #b81f24; */
+}
+.sns-blank{}
+.explain-bx{
+    border: 1px solid gray;
+    width: 90%;
+    height: 90px;
+    margin: 0 auto;
 }
 /*현재진행형*/
 .contents{
@@ -551,18 +630,17 @@
 }
 .notice-cover{
     display: flex;
-    width: 65%;
+    width: 75%;
     margin: 0 auto;
 }
 .Infor-1{
-    margin: 0 auto;
+    margin-right: 20px;
     width: 550px;
     height: 270px;
     background-color: darkgreen;
 }
 .Infor-2{
     width: 550px;
-    margin: 0 auto;
     height: 270px;
     background-color: darkgray;
 }
