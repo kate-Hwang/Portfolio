@@ -639,11 +639,46 @@
     height: 270px;
     background-color: darkgreen;
 }
+.appStore , .appAndroid{
+    border: none;
+    width: 137px;
+    height: 42px;
+    cursor: pointer;
+    background-color: #b81f24;
+    margin: 0 20px;
+    border-radius: 22px;
+}
 .Infor-2{
     width: 550px;
     height: 270px;
     background-color: darkgray;
 }
+.Infor-2 p{
+    text-align: right;
+    margin: 5px 0;
+}
+.style-red-line{
+    position: relative;
+    width: 120px;
+    height: 20px;
+    top: 50px;
+    background-color: gray;
+    opacity: 0.8;
+}
+/* In button font-style */
+.view-details{ display: inline; color: #fff; font-size: 15px; }
+/* Awesome arrow-icons css style */
+.fa-caret-left{ margin: 0 5px; height: 17px; color: #fff;}
+.ViewMore-btn{
+    width: 160px;
+    height: 60px;
+    cursor: pointer;
+    background-color: #b81f24;
+    margin: 0;
+    padding: 7px 10px;
+    border-radius: 2px;
+}
+
 /*-------하단 Footer-------*/
 .footer{ width: 100%; height: 228px; background-color: #282828; }
 .footer-cover{
