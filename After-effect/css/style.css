@@ -567,19 +567,19 @@
     padding: 10px 0;
 }
 .join-people{
-    width: 80%;
+    width: 76%;
     margin: 0 auto;
 }
 .join-people-cover{
     margin: 40px auto;
-    width: 100%;
+    width: 101%;
     height: auto;
 }
 
 .join-people-cover span{
     display: inline-block;
     width: 150px;
-    border: 1px solid white;/*style-line 없애지말것*/
+    /*border: 1px solid white;style-line 없애지말것*/
 }
 .youtuber, .update-num, .people-num{
     display: inline-block;
@@ -601,12 +601,13 @@
 .num-data1, .num-data2{margin-top: 30px ;}
 
 .yt-img, .update-img, .people-img{
-    width: 120px;
+    width: 130px;
     height: 125px;
     margin: 25px auto;
 }
+
 .yt-img{background: url(../img/data-img-1.png)no-repeat;}
-.update-img{background: url(../img/data-img-2.png)no-repeat;}
+.update-img{ margin-top: 27px; background: url(../img/data-img-2.png)no-repeat;}
 .people-img{
     padding: 0 20px;
     background: url(../img/data-img-3.png)no-repeat;
@@ -637,7 +638,7 @@
     margin-right: 20px;
     width: 550px;
     height: 270px;
-    background-color: darkgreen;
+    background-color: #9ccdf5;
 }
 .appStore , .appAndroid{
     border: none;
