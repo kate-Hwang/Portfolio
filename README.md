@@ -1,7 +1,7 @@
 # **kate Hwang (황 지 영)**
 
 ### 개인정보
-- [Github](https://github.com/kate-Hwang/Portfolio)
+- [WebSite- Uniquepro](http://uniquepro.pe.kr/)
 - [ghkd6385@naver.com](ghkd6385@naver.com)
 
 ### 전체프로젝트 개발환경
@@ -18,7 +18,7 @@
 - 전체 화면 UI (화면정의서) 기획
 - 디자인 제작
 - 페이지 퍼블리싱
-- 프론트엔드 (데이터 바인딩)
+- 프론트엔드 (데이터 바인딩)-과정없음
 
 ****
 
@@ -42,29 +42,8 @@
 ### Trouble Shooting
 - 문제내용1
 
-    - 문제: 
+    - 문제: 웹 소켓을 활용한 채팅부분과 관리자 URI
     - 연구: 
     - 해결: 
 
-
-### 2. [After Effect Korea](https://github.com/wnstkdyu/afterHackDay2018)
-
-**영상편집 커뮤니티**
->After Effect라는 영상프로그램 툴 전반에 
- 필요한 정보와 영상정보 tip공유 및 전문성 강조 
-
- ### 사이트이미지
-
-<img src="/After_Effect_korea.png" width="800" height="650" hspace="2">
-
- ### Trouble Shooting
- -  문제내용1
-
-    - 문제: 
-    - 연구: 
-    - 해결: 
-
-
-
-[프로젝트 리포지터리](https://github.com/RodoPacaGiraffe/BoostCamp_iOS_Electo)
 
