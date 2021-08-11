@@ -13,13 +13,3 @@
 - WEB : `HTML5(html,css,javascript)` , `Jquery` , `Ajax` , `vue`
 
 - Test BROWSER : `Google Chrome` , `MS IE & Edge` , `Mozilla Firefox` , `Opera` , `Apple Safari`
-
-### 담당 수행 역할
-- 
-- 
-- 
-- 
-
-****
-
-# 프로젝트 소개
